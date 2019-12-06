@@ -5,7 +5,7 @@
     
 ### java version
     
-    1.8 未来升级至1.8
+    目前为java8 未来升级至java11
     
 ### maven version
 
