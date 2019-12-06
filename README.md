@@ -31,7 +31,8 @@
 
 #### 备注：
     
-    *：mybatis代码生成器在项目中自定义了注释生成器，需要修改源码。（对应jar已上传至项目中resources/jars目录下）替换本地maven仓库中对应jar即可。
+    *：mybatis代码生成器在项目中自定义了注释生成器，需要修改源码。
+       对应jar已上传至项目中resources/jars目录下,替换本地maven仓库中对应jar即可。
     
 #### contact me
     
