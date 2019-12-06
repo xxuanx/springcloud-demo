@@ -11,6 +11,10 @@
 
     3.6.1 高版本maven与最新版idea有冲突 不建议使用
     
+### 你需要修改的地方
+    
+    配置文件中的数据库配置以及与spring相关的参数
+    
 ### 已经整合的配置清单
 |type|name|version|
 |:-|:-:|-:|
@@ -23,6 +27,7 @@
 |guava|guava|28.1-jre|
 |hutool|hutool|5.0.7|
 |*mybatis.generator|mybatis.generator|1.4.0|
+|json|fastjson|1.2.62|
 
 #### 备注：
     
