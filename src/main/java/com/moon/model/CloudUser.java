@@ -1,8 +1,13 @@
 package com.moon.model;
 
+import lombok.Data;
+import lombok.experimental.Accessors;
+
 import java.io.Serializable;
 import java.util.Date;
 
+@Data
+@Accessors(chain = true)
 public class CloudUser implements Serializable {
     /**
      * 主键 id

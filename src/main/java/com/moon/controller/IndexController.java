@@ -16,7 +16,10 @@ public class IndexController {
     @GetMapping("index")
     @ResponseBody
     public String index(HttpServletRequest request){
+        //http://localhost:8081/index
         log.info("request:" + request.getRequestURL());
         return "index page";
     }
+
+
 }
