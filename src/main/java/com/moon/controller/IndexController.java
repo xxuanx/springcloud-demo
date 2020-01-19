@@ -7,6 +7,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.LinkedList;
 
 @Controller
 @RequestMapping("/")
@@ -20,6 +23,19 @@ public class IndexController {
         log.info("request:" + request.getRequestURL());
         return "index page";
     }
+
+    public static void main(String[] args) {
+        LinkedList linkedList = new LinkedList();
+        ArrayList arrayList = new ArrayList();
+
+    }
+
+    @GetMapping
+    @ResponseBody
+    public String index1(){
+        return "hello world";
+    }
+
 
 
 }
