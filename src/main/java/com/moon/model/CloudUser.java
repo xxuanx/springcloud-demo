@@ -6,6 +6,9 @@ import lombok.experimental.Accessors;
 import java.io.Serializable;
 import java.util.Date;
 
+/**
+ * @author macbookpro
+ */
 @Data
 @Accessors(chain = true)
 public class CloudUser implements Serializable {

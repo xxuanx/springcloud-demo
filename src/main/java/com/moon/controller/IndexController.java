@@ -8,9 +8,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
-import java.util.LinkedHashMap;
 import java.util.LinkedList;
 
+/**
+ * 入口controller
+ * @author macbookpro
+ */
 @Controller
 @RequestMapping("/")
 @Slf4j

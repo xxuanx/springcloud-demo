@@ -6,6 +6,9 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 
+/**
+ * @author macbookpro
+ */
 @Service
 public class UserService {
 
